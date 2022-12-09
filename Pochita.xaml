@@ -1,0 +1,72 @@
+﻿<Window x:Class="Unidad_3.Pochita"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unidad_3"
+        mc:Ignorable="d"
+        Title="Pochita" Height="500" Width="500">
+    <Canvas>
+        <Canvas.Resources>
+            <Style TargetType="Path">
+                <Setter Property="Stroke" Value="Black"/>
+                <Setter Property="StrokeThickness" Value="2"/>
+            </Style>
+        </Canvas.Resources>
+        <!--<Image Source="I:\Tec\5to semestre\Graficacion/Pochita.jpg" Width="200">
+            <Image.RenderTransform>
+                <RotateTransform Angle="0" CenterX="100" CenterY="266.66"/>
+            </Image.RenderTransform>
+        </Image>-->
+        <Path Data="
+              M145,115 A15,24 0 1 0 123,129
+              M142,115 A12,20 0 1 0 126,126
+              M145,115 149,111 146,108
+              M145,102 148,98 143,95 
+              M140.5,90 143,86 137.5,87
+              M132,84.5 129,80 126,85.5              
+              M120,91 114,92 117,97.5
+              M116,103 111,107 115.5,110
+              M116.5,116 112.5,120 119,123
+              ">
+            <Path.RenderTransform>
+                <RotateTransform Angle="-25" CenterX="100" CenterY="266.66"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path 
+              Data="M128,182 A55,55 0 0 0 84,104 A40,40 0 0 0 55,140 A20,20 0 0 0 60,155 A40,40 0 0 1 70,170 A30,30 0 0 0 71,180 A5,5 0 0 0 66,185 
+              L82,185 A5,5 0 0 0 85,187 L98,187 A5,5 0 0 0 100,183 A5,5 0 0 0 107,183 A20,20 0 0 0 128,182 Z " >
+            <Path.Fill>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#ff7539" Offset=".9"/>
+                    <GradientStop Color="#ff3d00" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path 
+              Data="M118,164 A10,10 0 0 0 112,182 A5,5 0 0 0 107,183"></Path>
+        <Path 
+              Data="M100,183 100,170"></Path>
+        <Path 
+              Data="M83,184 A5,5 0 0 1 89,180 A13,13 0 0 1 91,164"></Path>
+        <Path 
+              Data="M83,184 A27,27 0 0 1 70,170"></Path>
+        <Path 
+              Data="M83,184 A27,27 0 0 1 70,170"></Path>
+        <Path 
+              Data="M84,106 A40,40 0 0 0 63,140"></Path>
+        <Path 
+              Data="M63,140 A5,5 0 0 1 55,140"></Path>
+        <Path 
+              Data="M63,140 A10,10 0 0 0 78,141"></Path>
+        <Path 
+              Data="M130,178 135,177 A4,4 0 0 0 139,171 L133, 161 138,161 A15,15 0 0 1 154,172 L145,179 160,181 154,172" ></Path>
+
+        <Path Stroke="Black" StrokeThickness=".1" Fill="Black"
+              Data="M102,118 A6,6 0 0 1 92,114 L98,104 95,101 92,106 79,106 90,95 110,103 Z"></Path>
+        <Canvas Canvas.Left="76" Canvas.Top="120">
+            <Ellipse Height="13" Width="13" Fill="White" Stroke="Black" StrokeThickness="1"></Ellipse>
+            <Ellipse Height="6" Width="6" Fill="Black" Canvas.Left="2" Canvas.Top="1"/>
+        </Canvas>
+    </Canvas>
+</Window>

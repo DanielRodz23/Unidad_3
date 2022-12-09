@@ -1,0 +1,15 @@
+﻿<Window x:Class="Unidad_3.Estrella"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unidad_3"
+        mc:Ignorable="d"
+        Title="Estrella" Height="450" Width="800">
+    <Canvas>
+        <Path Stroke="Black" StrokeThickness="1" 
+              Data="M40,0 28.55,28.55 0,28.55 22.84,51.39 11.42,80 40,62.81 68.52,80 57.16,51.39 80,28.55 51.39,28.55Z">
+        </Path>
+        
+    </Canvas>
+</Window>

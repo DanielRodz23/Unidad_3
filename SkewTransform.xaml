@@ -1,0 +1,18 @@
+﻿<Window x:Class="Unidad_3.SkewTransform"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unidad_3"
+        mc:Ignorable="d"
+        Title="SkewTransform" Height="450" Width="800">
+    <Canvas>
+        <Rectangle Fill="Aqua" Width="45" Height="100" Stroke="Black">
+            <Rectangle.RenderTransform>
+                <SkewTransform AngleY="30" AngleX="20" CenterX="-45">
+                    
+                </SkewTransform>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+    </Canvas>
+</Window>
